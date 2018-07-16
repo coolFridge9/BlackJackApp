@@ -29,6 +29,8 @@
 # .idea/*.iml
 # .idea/modules
 
+.idea
+
 # CMake
 cmake-build-*/
 
@@ -58,3 +60,6 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# Node Modules
+node_modules
