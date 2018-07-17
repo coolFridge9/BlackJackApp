@@ -1,5 +1,8 @@
 const express = require("express");
 const blackJackApp = express();
+const hello = require("./Hello/Hello");
 
-blackJackApp.get("/",(request,response) => response.send("Hello BlackJack"));
+blackJackApp.get("/",hello.helloHandler);
+
 blackJackApp.listen(3000,() => console.log("listening on port 3000"));
+

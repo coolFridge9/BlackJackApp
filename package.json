@@ -2,6 +2,19 @@
   "name": "blackjackapp",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "automock": false,
+    "collectCoverage": true,
+    "roots": [
+      "<rootDir>/tests/"
+    ],
+    "modulePaths": [
+      "<rootDir>"
+    ]
+  },
   "dependencies": {
     "express": "~4.16.0",
     "jest": "^23.4.1"
