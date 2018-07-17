@@ -63,3 +63,6 @@ fabric.properties
 
 # Node Modules
 node_modules
+
+# jest coverage report
+coverage
