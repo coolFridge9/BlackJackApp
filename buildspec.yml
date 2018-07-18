@@ -6,4 +6,4 @@ phases:
       - npm install
   build:
     commands:
-      - jest /Unit
+      - jest --version
