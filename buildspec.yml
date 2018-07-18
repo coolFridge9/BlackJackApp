@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - npm install
+      - npm -g install jest
   build:
     commands:
-      - jest-cli /Unit
+      - jest /Unit
