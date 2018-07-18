@@ -9,7 +9,7 @@
     "automock": false,
     "collectCoverage": true,
     "roots": [
-      "<rootDir>/tests/"
+      "<rootDir>/Tests/"
     ],
     "modulePaths": [
       "<rootDir>"
