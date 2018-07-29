@@ -1,5 +1,5 @@
 #!/bin/bash
 
-npm -g install jest
+npm install
 node index.js &
 jest Tests/Integration
