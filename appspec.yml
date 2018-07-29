@@ -5,8 +5,8 @@ files:
     destination: /home/ubuntu/
     hooks:
       BeforeInstall:
-      - location: Before.sh
+      - location: ./Before.sh
       runas: root
       ApplicationStart:
-      - location: After.sh
+      - location: ./After.sh
       runas: root
