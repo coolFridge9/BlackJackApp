@@ -9,3 +9,4 @@ files:
       runas: root
       ApplicationStart:
       - location: After.sh
+      runas: root
