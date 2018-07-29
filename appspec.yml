@@ -8,4 +8,4 @@ files:
       - location: Before.sh
       runas: root
       ApplicationStart:
-      - location:
+      - location: After.sh
