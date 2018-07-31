@@ -8,5 +8,5 @@ files:
       - location: ./Before.sh
       runas: root
       ApplicationStart:
-      - location: ./After.sh
+      - location: ./DeployAfter.sh
       runas: root
