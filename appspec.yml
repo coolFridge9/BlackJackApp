@@ -6,7 +6,7 @@ files:
     hooks:
       BeforeInstall:
       - location: ./Before.sh
-      runas: root
+        runas: root
       ApplicationStart:
       - location: ./DeployAfter.sh
-      runas: root
+        runas: root
